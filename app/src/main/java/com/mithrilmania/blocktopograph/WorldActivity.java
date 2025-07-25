@@ -1,7 +1,9 @@
 package com.mithrilmania.blocktopograph;
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
+import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.Editable;
@@ -40,6 +42,7 @@ import com.mithrilmania.blocktopograph.nbt.tags.CompoundTag;
 import com.mithrilmania.blocktopograph.nbt.tags.Tag;
 
 import java.io.IOException;
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -209,6 +212,42 @@ public class WorldActivity extends AppCompatActivity
         bundle.putString("name", this.world.getWorldDisplayName());
         Bundle mapVersionData = world.getMapVersionData();
         if (mapVersionData != null) bundle.putAll(mapVersionData);
+
+        SharedPreferences sharedPreferences = getSharedPreferences("settings", Context.MODE_PRIVATE);
+        boolean expandDrawLayoutTouchRange = sharedPreferences.getBoolean("expand_drawer_touch_range", false);
+        boolean autoOpenDrawLayout = sharedPreferences.getBoolean("auto_open_drawer", false);
+
+        if(expandDrawLayoutTouchRange){
+            try {
+                // 获取DrawerLayout的mLeftDragger和mRightDragger字段
+                Field leftDraggerField = DrawerLayout.class.getDeclaredField("mLeftDragger");
+                leftDraggerField.setAccessible(true);
+
+                Object leftDragger = leftDraggerField.get(mBinding.drawerLayout);
+                // 获取ViewDragHelper的mEdgeSize字段
+                Field edgeSizeField = null;
+                Class<?> draggerClass = leftDragger.getClass();
+                while (draggerClass != null) {
+                    try {
+                        edgeSizeField = draggerClass.getDeclaredField("mEdgeSize");
+                        break;
+                    } catch (NoSuchFieldException e) {
+                        draggerClass = draggerClass.getSuperclass();
+                    }
+                }
+
+                if (edgeSizeField != null) {
+                    edgeSizeField.setAccessible(true);
+                    edgeSizeField.set(leftDragger, 225);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+
+        if(autoOpenDrawLayout){
+            openDrawer();
+        }
 
         // anonymous global counter of opened worlds
         Log.logFirebaseEvent(this, Log.CustomFirebaseEvent.WORLD_OPEN, bundle);

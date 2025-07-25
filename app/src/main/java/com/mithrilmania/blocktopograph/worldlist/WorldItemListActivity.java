@@ -34,6 +34,7 @@ import com.google.android.material.snackbar.Snackbar;
 import com.mithrilmania.blocktopograph.CreateWorldActivity;
 import com.mithrilmania.blocktopograph.Log;
 import com.mithrilmania.blocktopograph.R;
+import com.mithrilmania.blocktopograph.SettingsActivity;
 import com.mithrilmania.blocktopograph.World;
 import com.mithrilmania.blocktopograph.backup.WorldBackups;
 import com.mithrilmania.blocktopograph.util.IoUtil;
@@ -370,6 +371,9 @@ public class WorldItemListActivity extends AppCompatActivity {
                         .show();
 
                 return true;
+            }
+            case R.id.action_settings: {
+                startActivity(new Intent(this, SettingsActivity.class));
             }
 //            case R.id.action_changelog: {
 //                AlertDialog.Builder builder = new AlertDialog.Builder(ctx);
