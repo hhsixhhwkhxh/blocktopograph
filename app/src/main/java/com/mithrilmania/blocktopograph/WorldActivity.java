@@ -10,6 +10,7 @@ import android.text.Editable;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowInsetsController;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
@@ -47,7 +48,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class WorldActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener, WorldActivityInterface {
+        implements NavigationView.OnNavigationItemSelectedListener, WorldActivityInterface ,EditorFragment.EditorFragmentListener {
 
     public static final String PREF_KEY_SHOW_MARKERS = "showMarkers";
     private World world;
@@ -913,6 +914,22 @@ public class WorldActivity extends AppCompatActivity
                 .setNegativeButton(android.R.string.no, null)
                 .show();
     }
+
+    //动态禁用侧边栏 防止在nbt编辑器中误触拉出侧边栏
+    @Override
+    public void setDrawerEnabled(boolean flag) {
+        int lockMode =DrawerLayout.LOCK_MODE_LOCKED_CLOSED;
+
+        if(flag){
+
+            lockMode = DrawerLayout.LOCK_MODE_UNLOCKED;
+
+        }
+        mBinding.drawerLayout.setDrawerLockMode(lockMode, GravityCompat.START);
+
+    }
+
+
 
     public interface OpenFragmentCallback {
         void onOpen();

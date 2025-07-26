@@ -487,4 +487,22 @@
     <string name="auto_backup_caption">Auto Backup In Progress...</string>
     <string name="auto_backup_name">[Auto]</string>
     <string name="world_name_broken">Broken World</string>
+
+
+    <string-array name="spinner_options">
+        <item>ByteTag</item>
+        <item>ShortTag</item>
+        <item>IntTag</item>
+        <item>LongTag</item>
+        <item>FloatTag</item>
+        <item>DoubleTag</item>
+        <item>ByteArrayTag</item>
+        <item>StringTag</item>
+        <item>ListTag</item>
+        <item>CompoundTag</item>
+        <item>IntArrayTag</item>
+        <item>ShortArrayTag</item>
+
+    </string-array>
+
 </resources>
