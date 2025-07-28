@@ -1,0 +1,52 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "D:\\AndroidStudioProjects\\blocktopograph\\app\\.cxx\\Debug\\6k21714o\\armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "D:\\AndroidStudioProjects\\blocktopograph\\app\\.cxx\\Debug\\6k21714o\\armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "leveldb-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "D:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\AndroidStudioProjects\\blocktopograph\\app\\.cxx\\Debug\\6k21714o\\armeabi-v7a",
+        "leveldb"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "leveldb",
+      "output": "D:\\AndroidStudioProjects\\blocktopograph\\app\\.cxx\\Debug\\6k21714o\\armeabi-v7a\\libleveldb.a"
+    },
+    "leveldbutil-Debug-armeabi-v7a": {
+      "buildCommandComponents": [
+        "D:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\AndroidStudioProjects\\blocktopograph\\app\\.cxx\\Debug\\6k21714o\\armeabi-v7a",
+        "leveldbutil"
+      ],
+      "buildType": "debug",
+      "abi": "armeabi-v7a",
+      "artifactName": "leveldbutil",
+      "output": "D:\\AndroidStudioProjects\\blocktopograph\\app\\build\\intermediates\\cxx\\Debug\\6k21714o\\obj\\armeabi-v7a\\leveldbutil",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cc"
+  ]
+}

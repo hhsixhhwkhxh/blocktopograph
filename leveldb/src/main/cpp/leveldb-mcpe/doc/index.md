@@ -307,7 +307,7 @@ version numbers found in the keys to decide how to interpret them.
 ## Performance
 
 Performance can be tuned by changing the default values of the types defined in
-`include/options.h`.
+`include/leveldb/options.h`.
 
 ### Block size
 
@@ -338,19 +338,19 @@ options.compression = leveldb::kNoCompression;
 ### Cache
 
 The contents of the database are stored in a set of files in the filesystem and
-each file stores a sequence of compressed blocks. If options.block_cache is
-non-NULL, it is used to cache frequently used uncompressed block contents.
+each file stores a sequence of compressed blocks. If options.cache is non-NULL,
+it is used to cache frequently used uncompressed block contents.
 
 ```c++
 #include "leveldb/cache.h"
 
 leveldb::Options options;
-options.block_cache = leveldb::NewLRUCache(100 * 1048576);  // 100MB cache
+options.cache = leveldb::NewLRUCache(100 * 1048576);  // 100MB cache
 leveldb::DB* db;
 leveldb::DB::Open(options, name, &db);
 ... use the db ...
 delete db
-delete options.block_cache;
+delete options.cache;
 ```
 
 Note that the cache holds uncompressed data, and therefore it should be sized
@@ -369,7 +369,6 @@ leveldb::Iterator* it = db->NewIterator(options);
 for (it->SeekToFirst(); it->Valid(); it->Next()) {
   ...
 }
-delete it;
 ```
 
 ### Key Layout
@@ -425,21 +424,21 @@ spaces. For example:
 ```c++
 class CustomFilterPolicy : public leveldb::FilterPolicy {
  private:
-  leveldb::FilterPolicy* builtin_policy_;
+  FilterPolicy* builtin_policy_;
 
  public:
-  CustomFilterPolicy() : builtin_policy_(leveldb::NewBloomFilterPolicy(10)) {}
+  CustomFilterPolicy() : builtin_policy_(NewBloomFilterPolicy(10)) {}
   ~CustomFilterPolicy() { delete builtin_policy_; }
 
   const char* Name() const { return "IgnoreTrailingSpacesFilter"; }
 
-  void CreateFilter(const leveldb::Slice* keys, int n, std::string* dst) const {
+  void CreateFilter(const Slice* keys, int n, std::string* dst) const {
     // Use builtin bloom filter code after removing trailing spaces
-    std::vector<leveldb::Slice> trimmed(n);
+    std::vector<Slice> trimmed(n);
     for (int i = 0; i < n; i++) {
       trimmed[i] = RemoveTrailingSpaces(keys[i]);
     }
-    builtin_policy_->CreateFilter(trimmed.data(), n, dst);
+    return builtin_policy_->CreateFilter(&trimmed[i], n, dst);
   }
 };
 ```
@@ -479,7 +478,7 @@ leveldb::Range ranges[2];
 ranges[0] = leveldb::Range("a", "c");
 ranges[1] = leveldb::Range("x", "z");
 uint64_t sizes[2];
-db->GetApproximateSizes(ranges, 2, sizes);
+leveldb::Status s = db->GetApproximateSizes(ranges, 2, sizes);
 ```
 
 The preceding call will set `sizes[0]` to the approximate number of bytes of

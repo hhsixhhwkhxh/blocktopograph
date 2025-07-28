@@ -1,0 +1,8 @@
+Executable : D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+D:\AndroidStudioProjects\blocktopograph\app\.cxx\Debug\6k21714o\x86
+leveldb
+leveldbutil
+jvmArgs : 
+

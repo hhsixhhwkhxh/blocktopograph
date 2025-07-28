@@ -1,0 +1,235 @@
+[
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\db\\builder.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\builder.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\builder.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\db\\c.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\c.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\c.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\db\\db_impl.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\db_impl.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\db_impl.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\db\\db_iter.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\db_iter.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\db_iter.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\db\\dbformat.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\dbformat.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\dbformat.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\db\\dumpfile.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\dumpfile.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\dumpfile.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\db\\filename.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\filename.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\filename.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\db\\log_reader.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\log_reader.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\log_reader.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\db\\log_writer.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\log_writer.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\log_writer.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\db\\memtable.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\memtable.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\memtable.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\db\\repair.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\repair.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\repair.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\db\\table_cache.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\table_cache.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\table_cache.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\db\\version_edit.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\version_edit.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\version_edit.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\db\\version_set.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\version_set.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\version_set.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\db\\write_batch.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\write_batch.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\write_batch.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\table\\block_builder.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\table\\block_builder.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\table\\block_builder.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\table\\block.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\table\\block.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\table\\block.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\table\\filter_block.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\table\\filter_block.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\table\\filter_block.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\table\\format.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\table\\format.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\table\\format.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\table\\iterator.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\table\\iterator.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\table\\iterator.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\table\\merger.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\table\\merger.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\table\\merger.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\table\\table_builder.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\table\\table_builder.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\table\\table_builder.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\table\\table.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\table\\table.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\table\\table.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\table\\two_level_iterator.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\table\\two_level_iterator.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\table\\two_level_iterator.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\util\\arena.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\arena.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\arena.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\util\\bloom.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\bloom.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\bloom.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\util\\cache.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\cache.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\cache.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\util\\coding.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\coding.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\coding.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\util\\comparator.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\comparator.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\comparator.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\util\\crc32c.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\crc32c.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\crc32c.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\util\\env.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\env.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\env.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\util\\filter_policy.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\filter_policy.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\filter_policy.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\util\\hash.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\hash.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\hash.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\util\\logging.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\logging.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\logging.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\util\\options.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\options.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\options.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\util\\status.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\status.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\status.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\util\\env_posix.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\env_posix.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\util\\env_posix.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldb.dir\\helpers\\memenv\\memenv.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\helpers\\memenv\\memenv.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\helpers\\memenv\\memenv.cc"
+},
+
+{
+  "directory": "D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86",
+  "command": "D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android26 --gcc-toolchain=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/Sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -Iinclude -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/. -ID:/AndroidStudioProjects/blocktopograph/app/src/cpp/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIE   -fno-exceptions -fno-rtti -Werror -Wthread-safety -std=c++11 -o CMakeFiles\\leveldbutil.dir\\db\\leveldbutil.cc.o -c D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\leveldbutil.cc",
+  "file": "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\db\\leveldbutil.cc"
+}
+]

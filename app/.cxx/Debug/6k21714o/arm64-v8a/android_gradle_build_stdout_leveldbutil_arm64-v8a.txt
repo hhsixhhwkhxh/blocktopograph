@@ -1,0 +1,2 @@
+ninja: Entering directory `D:\AndroidStudioProjects\blocktopograph\app\.cxx\Debug\6k21714o\arm64-v8a'
+ninja: no work to do.

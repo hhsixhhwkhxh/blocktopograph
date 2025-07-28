@@ -1,0 +1,8 @@
+D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86_64/CMakeFiles/leveldb.dir
+D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86_64/CMakeFiles/leveldbutil.dir
+D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86_64/CMakeFiles/install/local.dir
+D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86_64/CMakeFiles/install.dir
+D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86_64/CMakeFiles/edit_cache.dir
+D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86_64/CMakeFiles/rebuild_cache.dir
+D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86_64/CMakeFiles/list_install_components.dir
+D:/AndroidStudioProjects/blocktopograph/app/.cxx/Debug/6k21714o/x86_64/CMakeFiles/install/strip.dir

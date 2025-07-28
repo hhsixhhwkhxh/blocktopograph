@@ -1,0 +1,52 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "D:\\AndroidStudioProjects\\blocktopograph\\app\\src\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "D:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+      "-C",
+      "D:\\AndroidStudioProjects\\blocktopograph\\app\\.cxx\\Debug\\6k21714o\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "D:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-C",
+    "D:\\AndroidStudioProjects\\blocktopograph\\app\\.cxx\\Debug\\6k21714o\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "leveldbutil-Debug-x86_64": {
+      "buildCommandComponents": [
+        "D:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\AndroidStudioProjects\\blocktopograph\\app\\.cxx\\Debug\\6k21714o\\x86_64",
+        "leveldbutil"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "leveldbutil",
+      "output": "D:\\AndroidStudioProjects\\blocktopograph\\app\\build\\intermediates\\cxx\\Debug\\6k21714o\\obj\\x86_64\\leveldbutil",
+      "runtimeFiles": []
+    },
+    "leveldb-Debug-x86_64": {
+      "buildCommandComponents": [
+        "D:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+        "-C",
+        "D:\\AndroidStudioProjects\\blocktopograph\\app\\.cxx\\Debug\\6k21714o\\x86_64",
+        "leveldb"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "leveldb",
+      "output": "D:\\AndroidStudioProjects\\blocktopograph\\app\\.cxx\\Debug\\6k21714o\\x86_64\\libleveldb.a"
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cc"
+  ]
+}

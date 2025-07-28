@@ -9,11 +9,11 @@
 
 #include "leveldb/db.h"
 #include "leveldb/write_batch.h"
-
+#include "leveldb/zlib_compressor.h"
 #include "leveldb/filter_policy.h"
 #include "leveldb/cache.h"
 #include "leveldb/options.h"
-
+#include "leveldb/decompress_allocator.h"
 #include "leveldb/env.h"
 
 static jmethodID gByteBuffer_isDirectMethodID;
@@ -21,7 +21,10 @@ static jmethodID gByteBuffer_positionMethodID;
 static jmethodID gByteBuffer_limitMethodID;
 static jmethodID gByteBuffer_arrayMethodID;
 
+static leveldb::ZlibCompressor *zlibCompressorInstance;
+static leveldb::ZlibCompressorRaw *zlibCompressorRawInstance;
 static leveldb::Logger *nullLoggerInstance;
+static leveldb::DecompressAllocator *decompressAllocatorInstance;
 
 class NullLogger : public leveldb::Logger {
 public:
@@ -61,6 +64,19 @@ nativeOpen(JNIEnv *env,
     options.create_if_missing = true;
     options.paranoid_checks = true;
 
+    //new
+    //options.compression = leveldb::kSnappyCompression;
+
+    if (zlibCompressorInstance == nullptr)
+        zlibCompressorInstance = new leveldb::ZlibCompressor();
+    if (zlibCompressorRawInstance == nullptr)
+        zlibCompressorRawInstance = new leveldb::ZlibCompressorRaw(-1);
+
+    if (nullLoggerInstance == nullptr)
+        nullLoggerInstance = new NullLogger();
+
+    if (decompressAllocatorInstance == nullptr)
+        decompressAllocatorInstance = new leveldb::DecompressAllocator();
 
     //create a bloom filter to quickly tell if a key is in the database or not
     options.filter_policy = leveldb::NewBloomFilterPolicy(10);
@@ -76,6 +92,9 @@ nativeOpen(JNIEnv *env,
 
     //use the new raw-zip compressor to write (and read)
 
+    options.compressors[0] = zlibCompressorRawInstance;
+
+    options.compressors[1] = zlibCompressorInstance;
 
     leveldb::Status status = leveldb::DB::Open(options, path, &db);
     env->ReleaseStringUTFChars(dbpath, path);
@@ -102,7 +121,19 @@ static jstring nativeFixLdb(JNIEnv *env,
     leveldb::Options options;
     options.create_if_missing = false;
     options.paranoid_checks = true;
+    //options.compression = leveldb::kSnappyCompression;
 
+    if (zlibCompressorInstance == nullptr)
+        zlibCompressorInstance = new leveldb::ZlibCompressor();
+    if (zlibCompressorRawInstance == nullptr)
+        zlibCompressorRawInstance = new leveldb::ZlibCompressorRaw(-1);
+
+    if (nullLoggerInstance == nullptr)
+        nullLoggerInstance = new NullLogger();
+
+
+    if (decompressAllocatorInstance == nullptr)
+        decompressAllocatorInstance = new leveldb::DecompressAllocator();
 
     //create a bloom filter to quickly tell if a key is in the database or not
     options.filter_policy = leveldb::NewBloomFilterPolicy(10);
@@ -118,6 +149,9 @@ static jstring nativeFixLdb(JNIEnv *env,
 
     //use the new raw-zip compressor to write (and read)
 
+    options.compressors[0] = zlibCompressorRawInstance;
+
+    options.compressors[1] = zlibCompressorInstance;
 
     leveldb::Status status = leveldb::RepairDB(path, options);
     env->ReleaseStringUTFChars(dbpath, path);
@@ -145,7 +179,7 @@ nativeGet(JNIEnv *env,
           jbyteArray keyObj) {
     auto *db = reinterpret_cast<leveldb::DB *>(dbPtr);
     leveldb::ReadOptions options = leveldb::ReadOptions();
-
+    //options.decompress_allocator = decompressAllocatorInstance;
     //options.snapshot = reinterpret_cast<leveldb::Snapshot *>(snapshotPtr);
 
     size_t keyLen = static_cast<size_t>(env->GetArrayLength(keyObj));

@@ -3,6 +3,7 @@ package com.mithrilmania.blocktopograph;
 import android.content.Context;
 import android.os.Bundle;
 
+import androidx.annotation.Keep;
 import androidx.annotation.NonNull;
 
 import com.google.firebase.crashlytics.FirebaseCrashlytics;
@@ -81,6 +82,13 @@ public class Log {
     public static void logFirebaseEvent(@NonNull Context context, @NonNull CustomFirebaseEvent firebaseEvent, @NonNull Bundle eventContent) {
         if (mIsFirebaseAnalyticsEnabled)
             getFirebaseAnalytics(context).logEvent(firebaseEvent.eventID, eventContent);
+    }
+
+    //日志杂乱 这是为xposed提供的一个hook位点
+    @Keep
+    public static void print(Object o){
+        //noting...
+
     }
 
     // Firebase events, these are meant to be as anonymous as possible,

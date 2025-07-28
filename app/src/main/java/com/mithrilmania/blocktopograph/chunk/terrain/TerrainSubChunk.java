@@ -3,6 +3,7 @@ package com.mithrilmania.blocktopograph.chunk.terrain;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import com.mithrilmania.blocktopograph.Log;
 import com.mithrilmania.blocktopograph.WorldData;
 import com.mithrilmania.blocktopograph.block.Block;
 import com.mithrilmania.blocktopograph.block.BlockTemplate;
@@ -28,6 +29,7 @@ public abstract class TerrainSubChunk {
     public static TerrainSubChunk create(@NonNull byte[] rawData) {
         TerrainSubChunk subChunk;
         ByteBuffer byteBuffer = ByteBuffer.wrap(rawData);
+        Log.print("分区数据的版本号:"+rawData[0]);
         switch (rawData[0]) {
 //            case 0:
 //            case 2:
@@ -39,8 +41,11 @@ public abstract class TerrainSubChunk {
 //                subChunk = new PreV1d2d13TerrainSubChunk(byteBuffer, oldBlockRegistry);
 //                break;
             case 1:
-            case 8:
+            case 8://海洋更新
                 subChunk = new V1d2d13TerrainSubChunk(byteBuffer);
+                break;
+            case 9:
+                subChunk = new V1d18d0TerrainSubChunk(byteBuffer);
                 break;
             default:
                 subChunk = null;
@@ -64,6 +69,11 @@ public abstract class TerrainSubChunk {
             case 1:
             case 8:
                 subChunk = new V1d2d13TerrainSubChunk();
+                break;
+
+            case 9:
+
+                subChunk = new V1d18d0TerrainSubChunk();
                 break;
             default:
                 subChunk = null;
